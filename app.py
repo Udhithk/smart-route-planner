@@ -6,4 +6,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"   # 👈 ADD THIS
 )
 
+st.markdown("""
+### Welcome 👋  
+
+This project includes:
+
+- 📊 **Basic Graph Planner** (Dijkstra & A*)
+- 🗺️ **Real Map Planner** (OSM-based routing)
+
+👉 Use the sidebar to navigate
+""")
 st.title("🌍 Smart Route Planner")
